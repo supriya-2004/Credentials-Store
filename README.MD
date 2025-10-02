@@ -23,18 +23,18 @@ pip install cryptography
 
 ## How to Use the Program ▶️
 1. **Run the Application**
-Execute the main script from your terminal:
+- Execute the main script from your terminal:
 ```bash
 python main.py
 ```
 2. **Enter Master Password**
-You will be prompted to enter a master password. This password will be used to encrypt and decrypt your keys for the current session.
+- You will be prompted to enter a master password. This password will be used to encrypt and decrypt your keys for the current session.
 ```bash
 --- API Key Storage System ---
 Please enter your master password: ********
 ```
 3. **Choose a Storage Method**
-Select how you want to store your credentials for this session.
+- Select how you want to store your credentials for this session.
 ```bash
 Choose a storage method:
 1. In-Memory (data is lost on exit)
@@ -43,7 +43,7 @@ Choose a storage method:
 Enter your choice (1/2/3): 2
 ```
 4. **Select an Action**
-Choose whether you want to store a new key or retrieve an existing one.
+- Choose whether you want to store a new key or retrieve an existing one.
 ```bash
 What would you like to do?
 1. Store a new API key
